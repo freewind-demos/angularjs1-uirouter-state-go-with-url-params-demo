@@ -10,7 +10,9 @@ app.config(($stateProvider, $urlRouterProvider) => {
     }
   });
 
-  $urlRouterProvider.otherwise('/hello/default');
-
+  // $urlRouterProvider.otherwise('/hello/default');
 });
 
+app.run(($state) => {
+  $state.go('hello', {name: 'default'});
+})
