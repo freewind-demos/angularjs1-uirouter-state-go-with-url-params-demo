@@ -5,5 +5,5 @@ AngularJS1 "@uirouter" State Go With Url Demo
 
 ```
 npm install
-npm run demo
+npm start
 ```
